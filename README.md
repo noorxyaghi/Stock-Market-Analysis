@@ -1,14 +1,8 @@
 # Stock Market Analysis
-```markdown
-# AAPL Stock Price Prediction
 
 A machine-learning pipeline to analyze and forecast Apple Inc. (AAPL) daily closing prices using lagged features and a Random Forest regressor.
 
----
-
 ## 📂 Repository Structure
-
-```
 
 .
 ├── README.md                    ← this file
@@ -26,9 +20,6 @@ A machine-learning pipeline to analyze and forecast Apple Inc. (AAPL) daily clos
 └── src/
 └── predict.py               ← example script loading the model for inference
 
-````
-
----
 
 ## Quick Start
 
