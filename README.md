@@ -1,4 +1,4 @@
-#Stock Market Analysis
+# Stock Market Analysis
 ```markdown
 # AAPL Stock Price Prediction
 
