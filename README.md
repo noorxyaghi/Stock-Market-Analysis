@@ -2,7 +2,7 @@
 
 A machine-learning pipeline to analyze and forecast Apple Inc. (AAPL) daily closing prices using lagged features and a Random Forest regressor.
 
-## 📂 Repository Structure
+## Repository Structure
 
 .
 ├── README.md                    ← this file
@@ -24,10 +24,10 @@ A machine-learning pipeline to analyze and forecast Apple Inc. (AAPL) daily clos
 ## Quick Start
 
 1. **Clone the repo**  
-   ```bash
+   ``bash
    git clone https://github.com/<your-username>/aapl-stock-predictor.git
    cd aapl-stock-predictor
-````
+``
 
 2. **Install dependencies**
 
@@ -71,7 +71,6 @@ predictions = model.predict(X_new)
 print(predictions[:5])
 ```
 
----
 
 ## Evaluation Metrics
 
@@ -80,7 +79,6 @@ print(predictions[:5])
 
 Plots and full results are in `outputs/`.
 
----
 
 ## Demo & Submission
 
