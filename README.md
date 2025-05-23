@@ -2,24 +2,6 @@
 
 A machine-learning pipeline to analyze and forecast Apple Inc. (AAPL) daily closing prices using lagged features and a Random Forest regressor.
 
-## Repository Structure
-
-.
-├── README.md                    ← this file
-├── requirements.txt             ← project dependencies
-├── data/
-│   └── AAPL.csv                 ← historical OHLCV data
-├── notebooks/
-│   └── StockMarketAnalysis.ipynb← EDA, feature engineering, modeling, evaluation
-├── models/
-│   └── aapl\_rf\_model.joblib     ← trained Random Forest model
-├── outputs/
-│   ├── aapl\_rf\_predictions.csv  ← test-set predictions
-│   ├── aapl\_backtest.png        ← actual vs. predicted plot
-│   └── aapl\_prophet\_forecast.csv← Prophet forecast (if used)
-└── src/
-└── predict.py               ← example script loading the model for inference
-
 
 ## Quick Start
 
@@ -71,37 +53,8 @@ predictions = model.predict(X_new)
 print(predictions[:5])
 ```
 
-
-## Evaluation Metrics
-
-* **Test MAE** : *e.g.* 2.35 USD
-* **Test RMSE**: *e.g.* 3.10 USD
-
-Plots and full results are in `outputs/`.
-
-
-## Demo & Submission
-
-1. Record a short screen-capture (OBS) running the notebook cells:
-
-   * EDA plots
-   * Model training & metric printout
-   * Backtest plot
-2. Upload to YouTube
-3. Post on LinkedIn linking:
-
-   * This GitHub repo
-   * Your YouTube demo
-   * Tag **@Uneeq Interns** and use hashtags `#MachineLearning #StockPrediction`
-
-Submit the LinkedIn post URL in the internship form when prompted.
-
----
-
 ## License
 
 This project is released under the **MIT License**.
 Data source: “Big Tech Stock Prices” Kaggle dataset.
 
-```
-```
